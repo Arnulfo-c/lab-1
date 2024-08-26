@@ -1,0 +1,15 @@
+//Arnulfo Josue Velasquez Cruz
+
+//Declaracion de variables
+const teclado = 155;
+const monitor = 180;
+const cpu = 200;
+const microfonos = 140;
+
+const totalproductos = teclado + monitor + cpu + microfonos;
+
+if (teclado < 100 || monitor < 100 || cpu < 100 || microfonos < 100){
+    console.log("Es necesario reponer teclado o monidor o cpu o microfonos de acuerdo sea el caso.");
+} else {
+    console.log("No es necesario reponer ningun producto.")
+}
